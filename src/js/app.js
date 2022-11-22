@@ -32,6 +32,7 @@ if (user) {
             body.classList.add("lock");
             if (!menuBurger.classList.contains("active")) {
                 menuBurger.classList.add("active")
+                sidebar.classList.remove("active");
             }
         })
     })
